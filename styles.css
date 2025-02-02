@@ -1323,3 +1323,171 @@ body {
   justify-items: center;
   align-content: center;
 }
+
+.body5{
+  width: 1440px;
+  height: 876px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/bgimg.png);
+  justify-items: center;
+  margin-top: 20px;
+}
+
+
+.body5 h4{
+  font-size: 31px;
+  line-height: 47px;
+  font-weight: 700;
+  width: 547px;
+  height: 48px;
+  margin: 0%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.body5 h6{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 601px;
+  height: 70px;
+  margin: 0%;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 170px;
+}
+
+.body5child{
+  display: flex;
+  margin-top: 250px;
+  gap: 40px;
+}
+
+
+.body5child1{
+  width: 570px;
+  height: 330px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-items: center;
+}
+
+.body5child1 h4{
+  font-size: 31px;
+  line-height: 47px;
+  font-weight: 700;
+  width: 547px;
+  height: 48px;
+  margin: 0%;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.body5child1 h6{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 495px;
+  height: 64px;
+  margin: 0%;
+  color: #6C6C72;
+  text-align: center;
+}
+
+
+.body5child2{
+  width: 570px;
+  height: 330px;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  justify-items: center;
+}
+
+
+.body5child2 h4{
+  font-size: 31px;
+  line-height: 47px;
+  font-weight: 700;
+  width: 547px;
+  height: 48px;
+  margin: 0%;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.body5child2 h6{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 495px;
+  height: 64px;
+  margin: 0%;
+  color: #6C6C72;
+  text-align: center;
+}
+
+.body5childsub{
+  width: 770px;
+  height: 357px;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+  bottom: 350px;
+  justify-items: center;
+  margin: 0%;
+}
+.move{
+  justify-items: center;
+  position: relative;
+  bottom: 100px;
+}
+
+
+.body5childsub h4{
+  font-size: 31px;
+  line-height: 47px;
+  font-weight: 700;
+  width: 187px;
+  height: 48px;
+  margin: 0%;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.body5childsub h5{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  width: 140px;
+  height: 30px;
+  margin: 0%;
+  color: #6C6C72;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.body5childsub h6{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 647px;
+  height: 78px;
+  margin: 0%;
+  color: #6C6C72;
+  text-align: center;
+}
+
