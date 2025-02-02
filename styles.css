@@ -229,8 +229,6 @@ body {
   .header {
     width: 768px;
     height: 1024px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .navBar {
     width: 668px;
@@ -316,8 +314,8 @@ body {
     text-align: center;
     top: 70px;
   }
-  
-.hero {
+
+  .hero {
     width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -325,7 +323,7 @@ body {
     justify-content: center;
     margin-top: 20px;
   }
-  .mobileimg{
+  .mobileimg {
     width: 378px;
     height: 423px;
   }
@@ -334,7 +332,7 @@ body {
     position: relative;
     right: 30px;
   }
-  
+
   .hero1sub2child {
     margin-left: 30px;
     position: relative;
@@ -346,4 +344,90 @@ body {
     border: 18px solid #7572ff;
     align-content: center;
   }
+}
+
+@media (max-width: 370px) {
+  .header {
+    width: 375px;
+    height: 1227px;
+  }
+  .navBar {
+    width: 343px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navBar3 {
+    width: 343px;
+    height: 40px;
+  }
+
+  .logonav {
+    width: 100px;
+    height: 60px;
+  }
+  .imgnav {
+    width: 100px;
+    height: 60px;
+    position: relative;
+    top: 66px;
+  }
+
+  .navbtn{
+    width: 76px;
+    height: 34px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    position: relative;
+    right: 243px;
+  }
+
+  .navBar1{
+    display: none;
+  }
+
+  .hero {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero2 {
+    width: 466px;
+    height: 521px;
+    position: relative;
+    right: 100px;
+   
+  }
+
+  .mobileimg{
+    width: 466px;
+    height: 521px;
+    position: relative;
+    right: 90px;
+    bottom: 50px;
+  }
+
+  .hero1sub1{
+    position: relative;
+    right: 40px;
+    width: 323px;
+    height: 358px;
+    border: 10px solid #7572ff ;
+  }
+  hero1sub2{
+    width: 323px;
+    height: 318px;
+  }
+
+
+
+  
+
 }
