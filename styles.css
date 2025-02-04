@@ -147,7 +147,7 @@ body {
 }
 
 .hero {
-  width: 1440px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -156,19 +156,17 @@ body {
 }
 
 .hero1 {
-  width: 620px;
+  width: 50%;
   height: 535px;
   position: relative;
-  left: 70px;
   top: 100px;
+  margin-left: 150px;
 }
 
 .hero2 {
-  width: 620px;
+  width: 50%;
   height: 725px;
   text-align: center;
-  position: relative;
-  left: 130px;
 }
 
 .hero1sub1 {
@@ -228,7 +226,9 @@ body {
 @media (max-width: 768px) {
   .header {
     width: 768px;
-    height: 1024px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .navBar {
     width: 668px;
@@ -261,7 +261,15 @@ body {
     height: 60px;
     border: 1px solid black;
   }
-
+  
+  .hero1 {
+    width: 50%;
+    height: 535px;
+    position: relative;
+    top: 100px;
+    margin: 0%;
+    margin-left: 70px;
+  }
   .hero1sub1 {
     width: 391px;
     height: 381px;
@@ -309,22 +317,22 @@ body {
   }
 
   .hero2 {
-    width: 378px;
+    width: 50%;
     height: 423px;
-    text-align: center;
+    position: relative;
     top: 70px;
   }
 
   .hero {
-    width: 768px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
-  .mobileimg {
-    width: 378px;
+  .hero2img {
+    width: 208px;
     height: 423px;
   }
   .hero1sub2 {
@@ -373,15 +381,22 @@ body {
     position: relative;
     top: 66px;
   }
+  .navBar4list1{
+   display: none;
+  }
 
-  .navbtn {
+  .navlistbtn {
+    position: relative;
+    right: 243px;
+    display: list-item;
+  }
+
+  .navbtn{
     width: 76px;
     height: 34px;
     font-size: 10px;
     line-height: 10px;
     font-weight: 600;
-    position: relative;
-    right: 243px;
   }
 
   .navBar1 {
@@ -389,7 +404,7 @@ body {
   }
 
   .hero {
-    width: 1440px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -399,10 +414,8 @@ body {
   }
 
   .hero2 {
-    width: 466px;
+    width: 100%;
     height: 521px;
-    position: relative;
-    right: 100px;
   }
 
   .mobileimg {
@@ -465,6 +478,9 @@ body {
     position: relative;
     top: 48px;
   }
+  .pipe{
+    display: none;
+  }
 
   .iconNav {
     display: flex;
@@ -472,6 +488,7 @@ body {
     position: relative;
     top: 40px;
   }
+
 }
 
 .mobile {
@@ -572,7 +589,6 @@ body {
     margin-right: auto;
     background-color: white;
     align-content: center;
-    border: 1px solid black;
   }
 
   .mobile1h4 {
@@ -583,8 +599,7 @@ body {
     height: 48px;
     margin: 0%;
     text-transform: uppercase;
-    position: relative;
-    right: 170px;
+   
   }
 
   .mobile1h6 {
@@ -597,20 +612,28 @@ body {
     margin: 0%;
     margin-top: 12px;
     color: #6c6c72;
-    position: relative;
-    right: 170px;
+  }
+
+  .mobile1child {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
   }
 
   .mobile1child1 {
-    width: 238px;
-    height: 359px;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .mobile1child2 {
+    width: 50%;
+    margin-left: 140px;
   }
 
   .mobile1child1sub {
     width: 238px;
     height: 359px;
-    position: relative;
-    right: 170px;
     top: 30px;
   }
 
@@ -646,7 +669,7 @@ body {
     right: 210px;
   }
   .mobile1 {
-    width: 1144px;
+    width: 100%;
     height: 774px;
     margin-left: auto;
     margin-right: auto;
@@ -675,14 +698,11 @@ body {
     height: 48px;
     margin: 0%;
     text-transform: uppercase;
-    position: relative;
-    right: 390px;
   }
   .mobile1child {
     display: flex;
+    margin-left: 50px;
     flex-direction: column;
-    position: relative;
-    right: 170px;
   }
 
   .mobile1child2sub {
@@ -692,11 +712,7 @@ body {
     bottom: 90px;
   }
   .mobile1 {
-    width: 1144px;
-    height: 935px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: center;
+    width: 100%;
   }
 
   .mobile1h4 {
@@ -716,15 +732,18 @@ body {
     line-height: 24px;
     font-weight: 400;
     text-align: center;
-    width: 601px;
-    height: 70px;
     margin: 0%;
     color: #6c6c72;
     display: none;
   }
+
   .mobile1child1 {
-    position: relative;
-    bottom: 70px;
+    width: 50%;
+    margin-left: 50px;
+  }
+  .mobile1child2 {
+    width: 50%;
+    margin-left: 200px;
   }
 }
 
@@ -1524,7 +1543,7 @@ body {
   text-align: center;
 }
 
-.body6sub1{
+.body6sub1 {
   display: flex;
   gap: 20px;
   margin-top: 60px;
@@ -1537,7 +1556,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.body6sub1_1 h4{
+.body6sub1_1 h4 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
@@ -1559,9 +1578,7 @@ body {
   text-align: start;
   margin-left: 12px;
   margin-top: 20px;
-  
 }
-
 
 .body6sub1_2 {
   width: 370px;
@@ -1570,8 +1587,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-.body6sub1_2 h4{
+.body6sub1_2 h4 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
@@ -1593,9 +1609,7 @@ body {
   text-align: start;
   margin-left: 12px;
   margin-top: 20px;
-  
 }
-
 
 .body6sub1_3 {
   width: 370px;
@@ -1604,8 +1618,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-.body6sub1_3 h4{
+.body6sub1_3 h4 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
@@ -1629,21 +1642,23 @@ body {
   margin-top: 20px;
 }
 
-.body7{
+.body7 {
   width: 1170px;
   height: 230px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
   background-color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   justify-items: center;
   align-content: center;
   position: relative;
   top: 100px;
 }
 
-.footer{
+.footer {
   width: 1440px;
   height: 542px;
   margin-left: auto;
@@ -1651,7 +1666,7 @@ body {
   background-color: #232233;
 }
 
-.footersub{
+.footersub {
   width: 1167px;
   height: 400px;
   margin-left: auto;
@@ -1665,8 +1680,7 @@ body {
   align-content: center;
 }
 
-.footersub1 h4{
-
+.footersub1 h4 {
   font-size: 31px;
   line-height: 47px;
   font-weight: 700;
@@ -1689,7 +1703,3 @@ body {
   position: relative;
   bottom: 18px;
 }
-
-
-
-
